@@ -30,7 +30,9 @@
         "wpackagist-plugin/fourteen-colors": "~1.2",
         "wpackagist-plugin/search-regex": "~1.4",
         "wpackagist-plugin/styles": "~1.1",
-        "wpackagist-plugin/styles-twentyfourteen": "~1.0"
+        "wpackagist-plugin/styles-twentyfourteen": "~1.0",
+
+        "wpackagist-plugin/w3-total-cache": "~0.9"
 
     },
     "extra": {
