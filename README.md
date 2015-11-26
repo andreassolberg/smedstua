@@ -1,8 +1,6 @@
 
 # Set initial configuration
 
-heroku config:set AUTH_KEY='fNV9n1zB7tTzM4GxL9S45uvtqKiziEQp' SECURE_AUTH_KEY='545naqA7XLAez91JaxdF8AQ2y1bAj9Eb' LOGGED_IN_KEY='KjiURqBlxlFXGOX1eJc9N4Lq3tCoQpWg' NONCE_KEY='dA8C7UezP70AV7ra4WJ9v5ePY2JKH7zi' AUTH_SALT='XWS4EBbFCFD2s6DmNXkbDhaJzYSeS1QN' SECURE_AUTH_SALT='x5T66lKUQq6jX9bFMU9Uay5dCgQBXBau' LOGGED_IN_SALT='fLwMflBEoJ5VonyfViqbOdrEF3ksqI2y' NONCE_SALT='8wz3wnnm82pFs50vkPnS2wCJ7wQlUsgb'
-
 
 # Update composer
 
@@ -48,3 +46,27 @@ To be verified and installed. (if needed)
 
     ,
         "wpackagist-plugin/memcachier": "1.0.1"
+
+
+
+NEXT:
+
+w3 total cache: DISK
+
+
+---
+
+enable cahce = true
+
+For å få denne til å fungere så må vi kjøre:
+
+        "wpackagist-plugin/memcachier": "1.0.1"
+
+cp wordpress/wp-content/plugins/memcachier/object-cache.php wordpress/wp-content/object-cache.php
+
+
++
+
+BATCACHE:
+
+cp wordpress/wp-content/plugins/batcache/advanced-cache.php wordpress/wp-content/advanced-cache.php
