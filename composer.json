@@ -44,6 +44,9 @@
     "scripts": {
         "post-install-cmd": [
             "cp wp-config.php wordpress/wp-config.php"
+        ],
+        "post-update-cmd": [
+            "cp wp-config.php wordpress/wp-config.php"
         ]
     }
 }
