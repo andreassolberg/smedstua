@@ -17,10 +17,6 @@ git push heroku master
 
 
 
-mysqldump -h mysql.ufisa.uninett.no -u andreas -pusoh1zeeWaSeetho andreas_smedstua | mysql -h eu-cdbr-west-01.cleardb.com -u b17caa63279e6c -p72edc1c6 heroku_2aa1d2576b453dd
-
-
-
 
 # CMD
 
@@ -44,3 +40,11 @@ To be verified and installed. (if needed)
     "wpackagist-plugin/wp-retina-2x": "~3.5",
 
     "wpackagist-plugin/memcached-cloud": "~1.0",
+
+
+
+
+
+
+    ,
+        "wpackagist-plugin/memcachier": "1.0.1"

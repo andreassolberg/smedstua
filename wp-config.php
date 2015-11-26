@@ -1,6 +1,6 @@
 <?php
 /** Enable W3 Total Cache */
-#define('WP_CACHE', true); // Added by W3 Total Cache
+define('WP_CACHE', false); // Added by W3 Total Cache
 
 /**
  * The base configurations of the WordPress.
@@ -82,34 +82,34 @@ define ('WPLANG', 'nb_NO');
 define('WP_DEBUG', true);
 
 
-echo "foo1";
+// echo "foo1<pre>";
 
 
-/** This should point to the app directory */
-define("WP_SITEURL", "http://" . $_SERVER["HTTP_HOST"].'/app');
+// // // /** This should point to the app directory */
+define("WP_SITEURL", "http://" . $_SERVER["HTTP_HOST"].'/wordpress/');
 
-echo "\nWP_SITEURL " . WP_SITEURL;
+// // // echo "\nWP_SITEURL " . WP_SITEURL;
  
-/** This is the URL your visitors will see */
+// // // /** This is the URL your visitors will see */
 define('WP_HOME', "http://" . $_SERVER["HTTP_HOST"]);
  
- echo "\nWP_HOME " . WP_HOME ;
-/** Point both directory and URLs to content/ instead of the default wp-content/ **/
-if ( ! defined( 'WP_CONTENT_DIR' ) ) {
-    define( 'WP_CONTENT_DIR', __DIR__ . '/content' );
-}
-if ( ! defined( 'WP_CONTENT_URL' ) ) {
-    define( 'WP_CONTENT_URL', WP_HOME . '/content' );
-}
- echo "\nWP_CONTENT_DIR " . WP_CONTENT_DIR;
- echo "\nWP_CONTENT_URL " . WP_CONTENT_URL;
-
+//  echo "\nWP_HOME " . WP_HOME ;
+// * Point both directory and URLs to content/ instead of the default wp-content/ *
+// if ( ! defined( 'WP_CONTENT_DIR' ) ) {
+//     define( 'WP_CONTENT_DIR', __DIR__ . '/content' );
+// }
+// if ( ! defined( 'WP_CONTENT_URL' ) ) {
+//     define( 'WP_CONTENT_URL', WP_HOME . '/content' );
+// }
+//  echo "\nWP_CONTENT_DIR " . WP_CONTENT_DIR;
+//  echo "\nWP_CONTENT_URL " . WP_CONTENT_URL;
+// echo "\nABSPATH " . ABSPATH;
 
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
 // if ( !defined('ABSPATH') )
-//    define('ABSPATH', dirname(__FILE__) . '/app/');
+//    define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

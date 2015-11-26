@@ -30,14 +30,18 @@
         "wpackagist-plugin/fourteen-colors": "~1.2",
         "wpackagist-plugin/search-regex": "~1.4",
         "wpackagist-plugin/styles": "~1.1",
-        "wpackagist-plugin/styles-twentyfourteen": "~1.0",
-        "wpackagist-plugin/memcachier": "1.0.1"
+        "wpackagist-plugin/styles-twentyfourteen": "~1.0"
 
     },
     "extra": {
-        "wordpress-install-dir": "app",
+        "wordpress-install-dir": "wordpress",
         "installer-paths": {
-            "content/plugins/{$name}/": ["type:wordpress-plugin"]
+            "wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "cp wp-config.php wordpress/wp-config.php"
+        ]
     }
 }
