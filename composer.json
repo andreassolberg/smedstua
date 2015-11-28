@@ -44,11 +44,15 @@
     "scripts": {
         "post-install-cmd": [
             "cp wp-config.php wordpress/wp-config.php",
+            "cp -r content/* wordpress/wp-content/",
             "mkdir -p wordpress/wp-content/cache",
             "chmod 777 wordpress/wp-content/cache"
         ],
         "post-update-cmd": [
-            "cp wp-config.php wordpress/wp-config.php"
+            "cp wp-config.php wordpress/wp-config.php",
+            "cp -r content/* wordpress/wp-content/",
+            "mkdir -p wordpress/wp-content/cache",
+            "chmod 777 wordpress/wp-content/cache"
         ]
     }
 }
