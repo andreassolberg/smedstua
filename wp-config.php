@@ -26,6 +26,8 @@ define("DB_PASSWORD", trim($url["pass"]));
 define("DB_HOST", trim($url["host"]));
 
 
+
+
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
