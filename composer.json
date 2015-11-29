@@ -39,6 +39,9 @@
         "wordpress-install-dir": "wordpress",
         "installer-paths": {
             "wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
+        },
+        "heroku": {
+            "newrelic": true
         }
     },
     "scripts": {
