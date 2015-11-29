@@ -23,6 +23,7 @@
 
         "koodimonni/composer-dropin-installer": "*",
         "koodimonni-language/core-nb_no": "~4.3",
+        "koodimonni-theme-language/twentyfourteen-nb_no": "*",
 
         "wpackagist-plugin/amazon-s3-and-cloudfront": "~0.9",
         "wpackagist-plugin/amazon-web-services": "~0.3",
