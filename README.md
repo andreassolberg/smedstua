@@ -1,3 +1,4 @@
+# Deploying smedstua.com at heroku
 
 # Set initial configuration
 
