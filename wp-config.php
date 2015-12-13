@@ -54,6 +54,58 @@ define('AWS_SECRET_ACCESS_KEY', getenv('AWS_S3_SECRET'));
 
 /**#@-*/
 
+
+
+
+
+
+
+var $redisconfig = parse_url(getenv('REDIS_URL'));
+
+
+define('WP_REDIS_CLIENT', $redisconfig['user']);
+define('WP_REDIS_HOST', $redisconfig['host']);
+define('WP_REDIS_PORT', $redisconfig['port']);
+define('WP_REDIS_PATH', $redisconfig['path']);
+define('WP_REDIS_PASSWORD', $redisconfig['pass']);
+define('WP_REDIS_MAXTTL', 5);
+
+
+
+
+// WP_REDIS_CLIENT [default: not set]
+
+// Specifies the client used to communicate with Redis. Supports hhvm, pecl and predis.
+
+// WP_REDIS_SCHEME [default: tcp]
+
+// Specifies the protocol used to communicate with an instance of Redis. Internally the client uses the connection class associated to the specified connection scheme. Supports tcp (TCP/IP), unix (UNIX domain sockets) or http (HTTP protocol through Webdis).
+
+// WP_REDIS_HOST [default: 127.0.0.1]
+
+// IP or hostname of the target server. This is ignored when connecting to Redis using UNIX domain sockets.
+
+// WP_REDIS_PORT [default: 6379]
+
+// TCP/IP port of the target server. This is ignored when connecting to Redis using UNIX domain sockets.
+
+// WP_REDIS_PATH [default: not set]
+
+// Path of the UNIX domain socket file used when connecting to Redis using UNIX domain sockets.
+
+// WP_REDIS_DATABASE [default: 0]
+
+// Accepts a numeric value that is used to automatically select a logical database with the SELECT command.
+
+// WP_REDIS_PASSWORD [default: not set]
+
+// Accepts a value used to authenticate with a Redis server protected by password with the AUTH command.
+
+// WP_REDIS_MAXTTL [default: not set]
+
+
+
+
 /**
  * WordPress Database Table prefix.
  *
