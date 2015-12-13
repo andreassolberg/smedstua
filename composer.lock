@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cd968d4cdedf7b879e1d293d63f9b554",
-    "content-hash": "0af734ecd93ea772dc6e7623da7ce93b",
+    "hash": "e2061f3fb97305f84850c2fb976f1cae",
+    "content-hash": "2f534f810cbda9f25e19cb0c4553204c",
     "packages": [
         {
             "name": "composer/installers",
@@ -107,16 +107,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.3.1",
+            "version": "4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f"
+                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
-                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
+                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-09-15 15:01:23"
+            "time": "2015-12-08 23:46:14"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -191,66 +191,6 @@
             "time": "2015-06-11 15:15:30"
         },
         {
-            "name": "koodimonni-language/core-nb_no",
-            "version": "4.3.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.3.1/nb_NO.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "koodimonni/composer-dropin-installer": ">=0.2.3"
-            },
-            "type": "wordpress-language",
-            "description": "Wordpress core translation for Norwegian (Bokmål) - nb_no",
-            "keywords": [
-                "Translation",
-                "Wordpress",
-                "core",
-                "nb_no"
-            ]
-        },
-        {
-            "name": "koodimonni/composer-dropin-installer",
-            "version": "0.2.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
-                "reference": "618b96fd3bc8c1532610b7f7baedc4e60736a340"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/618b96fd3bc8c1532610b7f7baedc4e60736a340",
-                "reference": "618b96fd3bc8c1532610b7f7baedc4e60736a340",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "1.0.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Koodimonni\\Composer\\Dropin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Koodimonni\\Composer\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "WTFPL"
-            ],
-            "authors": [
-                {
-                    "name": "Onni Hakala",
-                    "email": "onni@koodimonni.fi"
-                }
-            ],
-            "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2015-01-04 10:24:12"
-        },
-        {
             "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
             "version": "0.9.10",
             "source": {
@@ -289,6 +229,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/amazon-web-services/"
+        },
+        {
+            "name": "wpackagist-plugin/batcache",
+            "version": "1.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/batcache/",
+                "reference": "tags/1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/batcache.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/batcache/"
         },
         {
             "name": "wpackagist-plugin/disqus-comment-system",
@@ -352,15 +312,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.8.0",
+            "version": "3.8.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.8.0"
+                "reference": "tags/3.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.3.8.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.8.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -412,15 +372,15 @@
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
-            "version": "2.2.4",
+            "version": "2.2.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/regenerate-thumbnails/",
-                "reference": "tags/2.2.4"
+                "reference": "tags/2.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.2.2.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.2.2.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -491,36 +451,16 @@
             "homepage": "https://wordpress.org/plugins/styles-twentyfourteen/"
         },
         {
-            "name": "wpackagist-plugin/w3-total-cache",
-            "version": "0.9.4.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/0.9.4.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
-        },
-        {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.0.4",
+            "version": "3.0.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.0.4"
+                "reference": "tags/3.0.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.0.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.0.6.zip",
                 "reference": null,
                 "shasum": null
             },
