@@ -60,7 +60,7 @@ define('AWS_SECRET_ACCESS_KEY', getenv('AWS_S3_SECRET'));
 
 
 
-var $redisconfig = parse_url(getenv('REDIS_URL'));
+$redisconfig = parse_url(getenv('REDIS_URL'));
 
 
 define('WP_REDIS_CLIENT', $redisconfig['user']);
