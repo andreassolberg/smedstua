@@ -34,7 +34,8 @@
 		"wpackagist-plugin/styles": "~1.1",
 		"wpackagist-plugin/styles-twentyfourteen": "~1.0",
 
-		"wpackagist-plugin/redis-cache": "~1.2"
+		"wpackagist-plugin/redis-cache": "~1.2",
+		"wpackagist-plugin/w3-total-cache": "~0.9"
 
 	},
 	"extra": {
