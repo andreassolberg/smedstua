@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e2061f3fb97305f84850c2fb976f1cae",
-    "content-hash": "2f534f810cbda9f25e19cb0c4553204c",
+    "hash": "1ffa919f7c4bd5e194fb91c3b0f58304",
+    "content-hash": "5e7cfacd95cf7164878837cba589b3d9",
     "packages": [
         {
             "name": "composer/installers",
@@ -231,26 +231,6 @@
             "homepage": "https://wordpress.org/plugins/amazon-web-services/"
         },
         {
-            "name": "wpackagist-plugin/batcache",
-            "version": "1.4",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/batcache/",
-                "reference": "tags/1.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/batcache.1.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/batcache/"
-        },
-        {
             "name": "wpackagist-plugin/disqus-comment-system",
             "version": "2.84",
             "source": {
@@ -369,6 +349,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/postmark-approved-wordpress-plugin/"
+        },
+        {
+            "name": "wpackagist-plugin/redis-cache",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/redis-cache/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redis-cache/"
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
