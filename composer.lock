@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1e9e00bc969693575cd537622d467b78",
-    "content-hash": "f2a82776f25bc5eec3fa6ddda686fb83",
+    "hash": "c090c93dc1880e3605a741f76e665874",
+    "content-hash": "89d783f0b8ae74acbd4dbc1b31a52a1c",
     "packages": [
         {
             "name": "composer/installers",
@@ -349,26 +349,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/orbisius-child-theme-creator/"
-        },
-        {
-            "name": "wpackagist-plugin/p3-profiler",
-            "version": "1.5.3.9",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/p3-profiler/",
-                "reference": "tags/1.5.3.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/p3-profiler.1.5.3.9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/p3-profiler/"
         },
         {
             "name": "wpackagist-plugin/postmark-approved-wordpress-plugin",
